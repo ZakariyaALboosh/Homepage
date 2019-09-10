@@ -1,0 +1,81 @@
+/* line 2, ../project0/Homepage/styles.scss */
+#profile-picture {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+  /* line 9, ../project0/Homepage/styles.scss */
+  #home-par {
+    color: whitesmoke;
+    border-radius: 15px;
+  }
+  /* line 13, ../project0/Homepage/styles.scss */
+  body {
+    background: url("C:/Users/User/Desktop/project0/Homepage/photos/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  /* line 20, ../project0/Homepage/styles.scss */
+  #home-par {
+    margin-top: 20%;
+    margin-right: 25%;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 31, ../project0/Homepage/styles.scss */
+  #home-par {
+    color: whitesmoke;
+    border-radius: 15px;
+  }
+  /* line 35, ../project0/Homepage/styles.scss */
+  body {
+    background: url("C:/Users/User/Desktop/project0/Homepage/photos/background1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+/* line 43, ../project0/Homepage/styles.scss */
+#home-par {
+  margin-top: 40%;
+  margin-right: 25%;
+}
+
+/* line 53, ../project0/Homepage/styles.scss */
+#skill-list > li {
+  font-weight: bold;
+}
+
+/* line 56, ../project0/Homepage/styles.scss */
+#skill-list {
+  list-style: none;
+}
+
+/* line 59, ../project0/Homepage/styles.scss */
+#phone::before {
+  content: "Phone number ";
+}
+
+/* line 63, ../project0/Homepage/styles.scss */
+#facebook-link:hover {
+  color: red;
+}
+
+/* line 67, ../project0/Homepage/styles.scss */
+.portfolio {
+  color: whitesmoke;
+}
+
+/* line 69, ../project0/Homepage/styles.scss */
+.portfolio td {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
